@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: cognitive-bot-hanako
+  host: cognitive-bot-hanako
+  disk_quota: 1024M
+  services:
+  - Language Translation-r6
